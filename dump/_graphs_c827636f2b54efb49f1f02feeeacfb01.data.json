@@ -1,0 +1,1 @@
+{"type":2300,"data":{"_id":"_graphs/lobbyradar","_key":"lobbyradar","_rev":"715925","edgeDefinitions":[{"collection":"relations","from":["entities"],"to":["entities"]}],"orphanCollections":["entities"]}}
