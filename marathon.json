@@ -1,0 +1,17 @@
+{
+  "id": "restore",
+  "cmd": "arangorestore --server.endpoint tcp://10.0.0.124:24318 --input-directory /dump",
+  "cpus": 1,
+  "mem": 128,
+  "disk": 0,
+  "instances": 1,
+  "container": {
+    "docker": {
+      "image": "m0ppers/arangodb-lobbyradar-restore",
+      "network": "HOST",
+      "parameters": []
+    },
+    "type": "DOCKER",
+    "volumes": []
+  }
+}
